@@ -939,7 +939,7 @@ to {
 `,Yfe=V.img`
   height: 9.6rem;
   width: auto;
-`;function Ej(){const{isDarkMode:e}=Yh(),t=e?"/logo-light.png":"/logo-dark.png";return x.jsx(Gfe,{children:x.jsx(Yfe,{src:t,alt:"Logo"})})}const Qfe=V.main`
+`;function Ej(){const{isDarkMode:e}=Yh(),t=e?"./logo-light.png":"./logo-dark.png";return x.jsx(Gfe,{children:x.jsx(Yfe,{src:t,alt:"Logo"})})}const Qfe=V.main`
   min-height: 100vh;
   display: grid;
   grid-template-columns: 48rem;
@@ -1389,7 +1389,7 @@ img {
     align-items: center;
     gap: 0.8rem;
   }
-`;function h2({checked:e,onChange:t,disabled:r=!1,id:n,children:i}){return x.jsxs(Vde,{children:[x.jsx("input",{type:"checkbox",id:n,checked:e,onChange:t,disabled:r}),x.jsx("label",{htmlFor:r?"":n,children:i})]})}function Kde(){const e=Er(),t=fn(),{mutate:r,isLoading:n}=dn({mutationFn:({bookingId:i,breakfast:a})=>UE(i,{status:"checked-in",isPaid:!0,...a}),onSuccess:i=>{xt.success(`Booking #${i.id} successfully checked in`),e.invalidateQueries({active:!0}),t("/")},onError:()=>{xt.error("There was an error while checking in")}});return{checkin:r,isCheckingIn:n}}const p2=V.div`
+`;function h2({checked:e,onChange:t,disabled:r=!1,id:n,children:i}){return x.jsxs(Vde,{children:[x.jsx("input",{type:"checkbox",id:n,checked:e,onChange:t,disabled:r}),x.jsx("label",{htmlFor:r?"":n,children:i})]})}function Kde(){const e=Er(),t=fn(),{mutate:r,isLoading:n}=dn({mutationFn:({bookingId:i,breakfast:a})=>UE(i,{status:"checked-in",isPaid:!0,...a}),onSuccess:i=>{xt.success(`Booking #${i.id} successfully checked in`),e.invalidateQueries({active:!0}),t("/bookings")},onError:()=>{xt.error("There was an error while checking in")}});return{checkin:r,isCheckingIn:n}}const p2=V.div`
   /* Box */
   background-color: var(--color-grey-0);
   border: 1px solid var(--color-grey-100);
