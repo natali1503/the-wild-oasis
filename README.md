@@ -8,7 +8,7 @@
 
 # The-wild-oasis
 
-Приложения для управления небольшим отелем.
+Приложение для управления небольшим отелем.
 Создавалось в рамках прохождения [The Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/).
 
 [Демо](https://natali1503.github.io/the-wild-oasis/)
