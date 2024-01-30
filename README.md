@@ -12,6 +12,11 @@
 Создавалось в рамках прохождения [The Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/).
 
 [Демо](https://natali1503.github.io/the-wild-oasis/)
+	
+credentials: test1@example.com, 	
+test1@example.com
+
+Перед использованием обновите образцы данных.
 
 ## Технологии
 
@@ -94,5 +99,3 @@
 Функционал настроек:
 
 - Ведение общих настроек в системе.
-
-## Использование
